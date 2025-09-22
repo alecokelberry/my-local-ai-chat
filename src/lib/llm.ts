@@ -6,7 +6,7 @@ env.allowRemoteModels = true;
 
 export class LLMEngine {
   private model: any = null;
-  private modelName = 'distilgpt2';  // Small, fast starter model (~82M params; upgrade later)
+  private modelName = 'Xenova/distilgpt2';  // Small, fast starter model (~82M params; upgrade later)
 
   async loadModel() {
     if (this.model) return;  // Already loaded
